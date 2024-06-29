@@ -4,9 +4,9 @@ import "./../App.css";
 
 const Navbar = () => {
     return (
-        <div className="flex justify-between">
+        <div className="flex justify-between bg-gray-200 mx-96 rounded-2xl mt-10 p-5 text-4xl font-bold">
             <div className="">
-                <h1 className="text-4xl text-yellow-400 inline">hello</h1>
+                <h1 className=" text-yellow-400 inline ">ServeDin</h1>
             </div>
             <div className="">
                 <h1 className="inline mr-10">Home</h1>
