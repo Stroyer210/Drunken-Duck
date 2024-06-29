@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.grisNegro{
+  background-color:rgb(40, 44, 52);
+};
+
 .App {
   text-align: center;
 }

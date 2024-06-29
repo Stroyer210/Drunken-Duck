@@ -9,8 +9,8 @@ import './output.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <main className="background"><App /></main>
+  <React.StrictMode >
+    <App/>
     
   </React.StrictMode>
 );
