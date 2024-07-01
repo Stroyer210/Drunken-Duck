@@ -8,8 +8,9 @@ const Hero = () => {
             <div className="">
                 <img src={imageHero} alt="Food-image" width={500} height={500} className="rounded-xl ml-10"/>
             </div>
-            <div className="">
-                <h1 className="text-4xl text-yellow-400 inline ml-20">This is where the Hero goes</h1>
+            <div className="w-1/3">
+                <h1 className="text-4xl text-yellow-400 ml-20">A Feast for the Senses</h1>
+                <h1 className="text-4xl text-white ml-20">"Experience dining like never before with our exquisite menu and ambiance."</h1>
             </div>
 
         </div>
