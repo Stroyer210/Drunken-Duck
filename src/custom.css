@@ -37,8 +37,19 @@ body{
     z-index: 9999;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
   }
 
+.biorhyme {
+    font-family: "BioRhyme", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
 .text-shadow{
     text-shadow: 4px 4px 10px rgb(0, 0, 0);
 }
