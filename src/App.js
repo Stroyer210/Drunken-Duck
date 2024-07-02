@@ -2,6 +2,7 @@ import './App.css';
 import './custom.css';
 // import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 import React from "react";
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <main>
         <Hero className='h-dvh'/>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }

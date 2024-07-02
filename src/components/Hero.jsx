@@ -1,5 +1,5 @@
 import "./../App.css";
-import imageHero from "./hero.avif"
+// import imageHero from "./hero.avif"
 import { IoFastFoodOutline } from "react-icons/io5";
 import { LiaCocktailSolid } from "react-icons/lia";
 import { FaMapLocationDot } from "react-icons/fa6";
