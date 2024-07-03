@@ -25,7 +25,7 @@ const Hero = () => {
                 </div>
 
                 <div className="mx-10">
-                    <Link to="/drink">
+                    <Link to="/Drink">
                     <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                     <h1 className="text-center text-4xl text-white font-extrabold h-auto">Drink Menu</h1>
                     <p><LiaCocktailSolid className="text-4xl text-white mx-auto my-3 font-bold"/></p>
