@@ -5,13 +5,15 @@ import { LiaCocktailSolid } from "react-icons/lia";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Footer from './Footer';
+// import logo from './logoduck.png';
+import logo2 from './logo2.png';
 
 
 const Hero = () => {
     return (
         <div className=" my-20  ">
             <div className="text-center mb-10">
-                <h1 className="text-7xl text-white font-extrabold ml-20 text-shadow biorhyme">The Drunken Duck</h1>
+                <h1 className="text-7xl text-white font-extrabold ml-20 text-shadow biorhyme"><img src={logo2} alt="mylogo" className="w-40 inline mr-10 pb-10"/>The Drunken Duck</h1>
                 <p className="text-white mx-auto w-3/6 mt-6 text-2xl text-shadow">Explore our menus, read reviews, and find our location. <span className="font-bold"> We can't wait to serve you!</span></p>
             </div>
             <div className="flex justify-center text-shadow">
