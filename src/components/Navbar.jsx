@@ -1,7 +1,10 @@
 // import React from "react";
 import "./../App.css";
 import { Link, useLocation } from "react-router-dom";
-
+import { IoFastFoodOutline } from "react-icons/io5";
+import { LiaCocktailSolid } from "react-icons/lia";
+import { FaMapLocationDot } from "react-icons/fa6";
+import { IoHome } from "react-icons/io5";
 
 const Navbar = () => {
     const currentPage = useLocation().pathname;
@@ -11,14 +14,14 @@ const Navbar = () => {
                 <h1 className=" text-teal-100 text-shadow inline biorhyme">The Drunken Duck</h1>
             </div>
             <div className="text-white text-shadow">
-                <Link to="/" className="inline mr-10 cursor-pointer">Home</Link>
+                <Link to="/" className="inline mr-10 cursor-pointer"><IoHome className="inline"/></Link>
                 <Link to="/Drink" className={ currentPage === "/Food"
                 ? "display inline mr-10 cursor-pointer"
-                : "hidden"}>Drink</Link>
+                : "hidden"}><LiaCocktailSolid className="inline"/></Link>
                 <Link to="/Food" className={ currentPage === "/Drink"
                 ? "display inline mr-10 cursor-pointer"
-                : "hidden"}>Food</Link>
-                <Link to="/Touch" className="inline mr-10 cursor-pointer">Contact</Link>
+                : "hidden"}><IoFastFoodOutline className="inline"/></Link>
+                <Link to="/Touch" className="inline mr-10 cursor-pointer"><FaMapLocationDot className="inline"/></Link>
             </div>
 
         </div>
