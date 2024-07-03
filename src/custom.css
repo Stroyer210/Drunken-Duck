@@ -73,8 +73,6 @@ body, html {
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(25px);
-    overflow-y: auto;  /* Allow vertical scrolling */
-    max-height: 100vh; /* Ensure it does not exceed the viewport height */
 }
 
 .backdrop-filter:hover{
