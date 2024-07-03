@@ -3,6 +3,9 @@ import "./../App.css";
 import { IoFastFoodOutline } from "react-icons/io5";
 import { LiaCocktailSolid } from "react-icons/lia";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+import Footer from './Footer';
+
 
 const Hero = () => {
     return (
@@ -13,24 +16,33 @@ const Hero = () => {
             </div>
             <div className="flex justify-center text-shadow">
                 <div className="mx-10">
+                    <Link to="/Food">
                     <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                         <h1 className="text-center text-4xl text-white font-extrabold h-auto">Food Menu</h1>
                         <p><IoFastFoodOutline className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
+                    </Link>
                 </div>
+
                 <div className="mx-10">
+                    <Link to="/drink">
                     <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                     <h1 className="text-center text-4xl text-white font-extrabold h-auto">Drink Menu</h1>
                     <p><LiaCocktailSolid className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
+                    </Link>
                 </div>
+
                 <div className="mx-10">
+                    <Link to="/">
                     <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                     <h1 className="text-center text-4xl text-white font-extrabold h-auto">Get in Touch</h1>
                     <p><FaMapLocationDot className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
+                    </Link>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 };

@@ -1,6 +1,6 @@
 import "./../App.css";
 // import imageHero from "./hero.avif"
-import Navbar from './components/Navbar';
+import Navbar from './Navbar';
 
 
 const Food = () => {

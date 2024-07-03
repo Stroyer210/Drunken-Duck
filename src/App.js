@@ -1,25 +1,25 @@
 import './App.css';
 import './custom.css';
 // import Navbar from './components/Navbar';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from './components/Hero';
-import Footer from './components/Footer';
-import React from "react";
+import Food from './components/Food';
+import Drink from './components/Drink';
+// import GetInTouch from './components/GetInTouch';
 
 function App() {
-
   return (
-    <div className="">
-      <header className="">
-        {/* <Navbar className='sticky top-0 z-50'/> */}
-      </header>
-      <main>
-        <Hero className='h-dvh'/>
-      </main>
-      <footer>
-        <Footer />
-      </footer>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Hero />} />
+        <Route path="/Food" element={<Food />} />
+        <Route path="/Drink" element={<Drink />} />
+        {/* <Route path="/get-in-touch" component={GetInTouch} /> */}
+      </Routes>
+    </Router>
   );
 }
 
 export default App;
+
