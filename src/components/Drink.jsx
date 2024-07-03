@@ -9,8 +9,8 @@ const Drink = () => {
             <div>
             <Navbar />
             </div>
-            <div>
-                <h1>This is the Drinks</h1>
+            <div className="backdrop-filter-nav 2xl:mx-96 mt-10">
+                <h1 className="text-center text-2xl text-white my-10">This is the Drink menu</h1>
             </div>
         </div>
     )
