@@ -34,7 +34,7 @@ const Footer = () => {
                         </a>
                     </div>
                     <p className="text-gray-300 mt-3 md:mt-0">
-                    ©2024 The Drunken duck <br /> All rights reserved{" "}
+                    ©2024 The Drunken Duck <br /> All rights reserved{" "}
                     </p>
                 </div>
 
