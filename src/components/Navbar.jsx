@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link to="/Food" className={ currentPage === "/Drink"
                 ? "display inline mr-10 cursor-pointer"
                 : "hidden"}><IoFastFoodOutline className="inline"/></Link>
-                <Link to="/Touch" className="inline mr-10 cursor-pointer"><FaMapLocationDot className="inline"/></Link>
+                <Link to="/Touch" className=" display inline mr-10 cursor-pointer"><FaMapLocationDot className="inline"/></Link>
             </div>
 
         </div>

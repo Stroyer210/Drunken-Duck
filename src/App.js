@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Hero from './components/Hero';
 import Food from './components/Food';
 import Drink from './components/Drink';
-// import GetInTouch from './components/GetInTouch';
+import Touch from './components/Touch';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route exact path="/" element={<Hero />} />
         <Route path="/Food" element={<Food />} />
         <Route path="/Drink" element={<Drink />} />
-        {/* <Route path="/get-in-touch" component={GetInTouch} /> */}
+        <Route path="/Touch" element={<Touch />} />
       </Routes>
     </Router>
   );
