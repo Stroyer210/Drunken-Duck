@@ -12,6 +12,11 @@ import hangoverDuck from "./../images/hangoverDuck.jpg";
 import classicDuck from "./../images/classicDuck.jpg";
 import buffalo from "./../images/buffalo.jpg";
 import giddyUp from "./../images/giddyUp.jpg";
+import steak from "./../images/steak.jpg";
+import ribeye from "./../images/ribeye.jpg";
+import baja from "./../images/baja.jpg";
+import grouper from "./../images/grouper.jpg";
+import cod from "./../images/cod.jpg";
 
 const Food = () => {
     return (
@@ -29,7 +34,9 @@ const Food = () => {
                         <a href="#signatureSalads"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Salads</button></a>
                         <a href="#salads"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Salads</button></a>
                         <a href="#sandwich"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Sandwich Favorites</button></a>
+                        <a href="#wraps"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Wraps</button></a>
                         <a href="#burgers"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Burgers</button></a>
+                        <a href="#steaks"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Steaks & more</button></a>
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Side Choices</button></a>
                     </div>
                     <hr className="mx-10" />
@@ -103,6 +110,26 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Giddy Up Burger*</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Topped with BBQ sauce, cheddar cheese, strips of bacon & a golden brown onion ring.</p>
                         <img src={giddyUp} alt="giddyUp burger" className="w-64 rounded-3xl m-auto" />
+                    </div>
+                    <hr className="mx-10 mt-10" />
+                    <div id="steaks">
+                        <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Steaks & More</h2>
+                        <p className="text-center text-base text-gray-200 mb-6 font-extrabold">Served with two sides</p>
+                        <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Steak Sandwich*</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Bacon wrapped queen filet tenderloin, with lettuce and chimichurri ranch.</p>
+                        <img src={steak} alt="steak" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Ribeye Sandwich*</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">8 oz hand cut ribeye.</p>
+                        <img src={ribeye} alt="ribeye" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Baja Fish Tacos</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Cajun spiced & deep-fried Atlantic Cod, topped with citrus slaw, Pico de Gallo & cilantro lime sauce.</p>
+                        <img src={baja} alt="baja fish tacos" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Grilled Grouper Tacos</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">2 tacos topped with citrus slaw, Pico de Gallo & cilantro lime sauce.</p>
+                        <img src={grouper} alt="grilled grouper tacos" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Atlantic Cod</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Perfectly seared and served with roasted seasonal vegetables, buttery mashed potatoes, and a zesty lemon herb sauce.</p>
+                        <img src={cod} alt="atlantic cod" className="w-64 rounded-3xl m-auto" />
                     </div>
                     <hr className="mx-10 mt-10" />
                     <div id="sides">
