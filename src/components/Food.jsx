@@ -92,6 +92,19 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Grilled Salmon Sandwich</p>
                     </div>
                     <hr className="mx-10 mt-10" />
+                    <div id="wraps">
+                        <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Wraps</h2>
+                        <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Southwest Chicken Wrap</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled chicken, pepper jack cheese, lettuce, Pico de Gallo & crispy tortilla strips with zesty salsa ranch.</p>
+                        <img src={friedShrimp} alt="fried-shrimp" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-10 mb-2 font-extrabold text-shadow">Chicken Caesar Wrap</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled chicken breast, crisp romaine lettuce, shaved Parmesan cheese, and creamy Caesar dressing, all wrapped in a soft flour tortilla.</p>
+                        <img src={tots} alt="tots" className="w-64 rounded-3xl m-auto" />
+                        <p className="text-center text-xl text-white mt-10 mb-2 font-extrabold text-shadow">Steakhouse Prime Wrap</p>
+                        <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Fresh shaved prime rib dressed in a creamy steak sauce with crispy fried onions, lettuce, tomato & cheddar cheese.</p>
+                        <img src={crab} alt="crab" className="w-64 rounded-3xl m-auto" />
+                    </div>
+                    <hr className="mx-10 mt-10" />
                     <div id="burgers">
                         <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">100% Certified Angus Beef Burgers</h2>
                         <p className="text-center text-base text-gray-200 mb-6 font-extrabold">Served with Fries – Sub Cheese Curds or Waffle Fries for $2.50</p>
