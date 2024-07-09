@@ -17,6 +17,9 @@ import ribeye from "./../images/ribeye.jpg";
 import baja from "./../images/baja.jpg";
 import grouper from "./../images/grouper.jpg";
 import cod from "./../images/cod.jpg";
+import southwestWrap from "./../images/southwestWrap.jpg";
+import ceasarWrap from "./../images/ceasarWrap.jpg";
+import steakWrap from "./../images/steakWrap.jpg";
 
 const Food = () => {
     return (
@@ -25,23 +28,24 @@ const Food = () => {
                 <Navbar />
             </div>
             <div className="backdrop-filter-nav 2xl:mx-96 mt-10 pb-10">
-                <h1 className="text-center text-4xl text-white my-10 font-extrabold text-shadow">FOOD MENU</h1>
-                <hr className="mx-10" />
+                <h1 className="text-center text-5xl text-white my-10 font-extrabold text-shadow tracking-widest">FOOD MENU</h1>
+                <hr className="mx-10 mb-5" />
                 <div>
-                    <div className="grid grid-cols-3 gap-2 text-center ">
-                        <a href="#signatureApps"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter ">Signature Appetizers</button></a>
-                        <a href="#apps"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Appetizers</button></a>
-                        <a href="#signatureSalads"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Salads</button></a>
-                        <a href="#salads"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Salads</button></a>
-                        <a href="#sandwich"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Sandwich Favorites</button></a>
-                        <a href="#wraps"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Wraps</button></a>
-                        <a href="#burgers"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Burgers</button></a>
-                        <a href="#steaks"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Steaks & more</button></a>
-                        <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Side Choices</button></a>
+                    <div className="grid grid-cols-3 gap-2 text-center mx-20">
+                        <a href="#signatureApps"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter ">Signature Appetizers</button></a>
+                        <a href="#apps"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Appetizers</button></a>
+                        <a href="#signatureSalads"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Salads</button></a>
+                        <a href="#salads"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Salads</button></a>
+                        <a href="#sandwich"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Sandwich Favorites</button></a>
+                        <a href="#wraps"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Wraps</button></a>
+                        <a href="#burgers"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Burgers</button></a>
+                        <a href="#steaks"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Steaks & more</button></a>
+                        <a href="#sides"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Side Choices</button></a>
                     </div>
-                    <hr className="mx-10" />
                     <div id="signatureApps">
-                        <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Appetizers</h2>
+                        <hr className="mx-10 mt-5" />
+                        <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Signature Appetizers</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Bada Bing Shrimp</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">½ lb hand breaded, deep-fried shrimp served with signature sauce.</p>
                         <img src={friedShrimp} alt="fried-shrimp" className="w-64 rounded-3xl m-auto" />
@@ -52,17 +56,19 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Hand pattied and grilled golden brown served with homemade remoulade sauce.</p>
                         <img src={crab} alt="crab" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <hr className="mx-60 mt-5" />
                     <div id="apps">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow">Appetizers</h2>
+                        <hr className="mx-60 mt-5" />
+                        <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Appetizers</h2>
+                        <hr className="mx-60 mt-5" />
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cheese Curds</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Onion Rings</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chicken Strips</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Bavarian Pretzel</p>
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="signatureSalads">
-                        <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Salads</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Signature Salads</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Chicken Cranberry Salad</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled Chicken on a bed of mixed greens, with dried cranberries, scallions, Parmesan cheese, candied almonds & Balsamic vinaigrette.</p>
                         <img src={chicken} alt="chicken" className="w-64 rounded-3xl m-auto" />
@@ -70,9 +76,10 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Mixed greens topped with blackened salmon*, red onions, tomatoes, cucumbers, fresh mushrooms & croutons.</p>
                         <img src={salmon} alt="salmon" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <hr className="mx-60 mt-5" />
                     <div id="salads">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow">Salads</h2>
+                        <hr className="mx-60 mt-5" />
+                        <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Salads</h2>
+                        <hr className="mx-60 mt-5" />
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chicken Ceasar Salad</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled chicken, romaine lettuce tossed with parmesan cheese, ceasar dressing & croutons.</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cobb Salad</p>
@@ -80,9 +87,10 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chef Salad</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Iceberg lettuce, topped with deli ham, turkey, red onions, tomato, green peppers, cheese & egg.</p>
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="sandwich">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Sandwich Favorites</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Sandwich Favorites</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-base text-gray-200 mb-6 font-extrabold">Served with Fries – Sub Cheese Curds or Waffle Fries for $2.50</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Clubhouse Sandwich</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Bacon, Lettuce & Tomato</p>
@@ -91,22 +99,24 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Irish Ruben</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Grilled Salmon Sandwich</p>
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="wraps">
-                        <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Wraps</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Wraps</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Southwest Chicken Wrap</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled chicken, pepper jack cheese, lettuce, Pico de Gallo & crispy tortilla strips with zesty salsa ranch.</p>
-                        <img src={friedShrimp} alt="fried-shrimp" className="w-64 rounded-3xl m-auto" />
+                        <img src={southwestWrap} alt="chicken wrap" className="w-64 rounded-3xl m-auto" />
                         <p className="text-center text-xl text-white mt-10 mb-2 font-extrabold text-shadow">Chicken Caesar Wrap</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Grilled chicken breast, crisp romaine lettuce, shaved Parmesan cheese, and creamy Caesar dressing, all wrapped in a soft flour tortilla.</p>
-                        <img src={tots} alt="tots" className="w-64 rounded-3xl m-auto" />
+                        <img src={ceasarWrap} alt="ceasar wrap" className="w-64 rounded-3xl m-auto" />
                         <p className="text-center text-xl text-white mt-10 mb-2 font-extrabold text-shadow">Steakhouse Prime Wrap</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Fresh shaved prime rib dressed in a creamy steak sauce with crispy fried onions, lettuce, tomato & cheddar cheese.</p>
-                        <img src={crab} alt="crab" className="w-64 rounded-3xl m-auto" />
+                        <img src={steakWrap} alt="steak wrap" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="burgers">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">100% Certified Angus Beef Burgers</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">100% Certified Angus Beef Burgers</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-base text-gray-200 mb-6 font-extrabold">Served with Fries – Sub Cheese Curds or Waffle Fries for $2.50</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Drunken Duck Burger*</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">2 patties topped with bacon, ham, shredded chicken, swiss & cheddar cheese.</p>
@@ -124,9 +134,10 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Topped with BBQ sauce, cheddar cheese, strips of bacon & a golden brown onion ring.</p>
                         <img src={giddyUp} alt="giddyUp burger" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="steaks">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Steaks & More</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Steaks & More</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-base text-gray-200 mb-6 font-extrabold">Served with two sides</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Steak Sandwich*</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Bacon wrapped queen filet tenderloin, with lettuce and chimichurri ranch.</p>
@@ -144,9 +155,10 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Perfectly seared and served with roasted seasonal vegetables, buttery mashed potatoes, and a zesty lemon herb sauce.</p>
                         <img src={cod} alt="atlantic cod" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <hr className="mx-10 mt-10" />
                     <div id="sides">
-                        <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Side Choices</h2>
+                        <hr className="mx-10 mt-10" />
+                        <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Side Choices</h2>
+                        <hr className="mx-10 mb-5" />
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Fries</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Tater Tots</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Applesauce</p>
