@@ -5,7 +5,7 @@ import { IoFastFoodOutline } from "react-icons/io5";
 import { LiaCocktailSolid } from "react-icons/lia";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { IoHome } from "react-icons/io5";
-import logo2 from './logo2.png';
+import logo2 from './../images/logo2.png';
 
 const Navbar = () => {
     const currentPage = useLocation().pathname;
@@ -25,7 +25,7 @@ const Navbar = () => {
                 <Link to="/Touch" className=" display inline mr-10 cursor-pointer"><FaMapLocationDot className="inline"/></Link>
             </div>
 
-        </div>
+        </div>  
     )
 };
 

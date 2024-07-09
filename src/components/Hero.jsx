@@ -6,7 +6,7 @@ import { FaMapLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 import Footer from './Footer';
 // import logo from './logoduck.png';
-import logo2 from './logo2.png';
+import logo2 from './../images/logo2.png';
 
 
 const Hero = () => {
