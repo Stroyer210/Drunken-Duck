@@ -85,6 +85,18 @@ const Food = () => {
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Topped with BBQ sauce, cheddar cheese, strips of  bacon & a golden brown onion ring.</p>
                     <img src={giddyUp} alt="giddyUp burger" className="w-64 rounded-3xl m-auto "/>
                     <hr className="mx-10 mt-10"/>
+                    <h2 className="text-center text-2xl text-white mt-5 mb-2 font-extrabold text-shadow">Side Choices</h2>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Fries</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Tater Tots</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Applesauce</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Coleslaw</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Mashed potatoes</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Kettle Chips</p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Baked Potato <span className="text-sm">($2.50 extra)</span></p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cheese Curds <span className="text-sm">($2.50 extra)</span></p>
+                    <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Mac And Cheese <span className="text-sm">($2.50 extra)</span></p>
+                    <hr className="mx-10 mt-10"/>
+                    <p className="text-center text-sm text-gray-200 mb-6 font-extrabold ">*Whether dining out or preparing food at home, consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness.</p>
                 </div>
             </div>
             <div>
