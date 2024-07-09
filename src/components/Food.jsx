@@ -23,8 +23,8 @@ const Food = () => {
                 <h1 className="text-center text-4xl text-white my-10 font-extrabold text-shadow">FOOD MENU</h1>
                 <hr className="mx-10" />
                 <div>
-                    <div className="grid grid-cols-3 gap-2">
-                        <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Appetizers</button></a>
+                    <div className="grid grid-cols-3 gap-2 text-center ">
+                        <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter ">Signature Appetizers</button></a>
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Appetizers</button></a>
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Salads</button></a>
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Salads</button></a>
@@ -32,6 +32,7 @@ const Food = () => {
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Burgers</button></a>
                         <a href="#sides"><button className="mx-14 text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Side Choices</button></a>
                     </div>
+                    {/* Need to work on the id for the sections!!!!!! */}
                     <hr className="mx-10" />
                     <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Appetizers</h2>
                     <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Bada Bing Shrimp</p>
