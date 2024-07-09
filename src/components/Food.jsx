@@ -1,12 +1,12 @@
 import "./../App.css";
 // import imageHero from "./hero.avif"
 import Navbar from './Navbar';
+import Footer from './Footer';
 import friedShrimp from "./../images/fried-shrimp.jpg";
 import tots from "./../images/tots.jpg";
 import crab from "./../images/crab.jpg";
 import chicken from "./../images/chicken.jpg";
 import salmon from "./../images/salmon.jpg";
-import Footer from './Footer';
 import drunkenDuck from "./../images/drunkenDuck.jpg";
 import hangoverDuck from "./../images/hangoverDuck.jpg";
 import classicDuck from "./../images/classicDuck.jpg";
