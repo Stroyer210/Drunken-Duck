@@ -16,20 +16,20 @@ const Footer = () => {
                     </span>
 
                     <div className="text-4xl flex sm:flex-row justify-center md:gap-16 py-3 text-gray-300 dark:text-white mt-3 mx-28 md:mt-0">
-                        <a href="/About" rel="noreferrer">
+                        <a href="https://www.instagram.com/sthiwar_17/" target="_blank" rel="noreferrer">
                             <AiOutlineInstagram className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
                         </a>
-                        <a href="/About" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/sergio-ardila-alvarado-550b40152/" target="_blank" rel="noreferrer">
                             <AiFillLinkedin className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
                         </a>
                         <a
-                            href="https://github.com/schneidsmc/diet-detective"
+                            href="https://github.com/Stroyer210/Drunken-Duck"
                             target="_blank"
                             rel="noreferrer"
                         >
                             <AiFillGithub className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
                         </a>
-                        <a href="/About" rel="noreferrer">
+                        <a href="https://www.facebook.com/sthiwar13" target="_blank" rel="noreferrer">
                             <AiFillFacebook className="contact-shadow dark:text-gray-100 dark:hover:text-gray-900" />
                         </a>
                     </div>
