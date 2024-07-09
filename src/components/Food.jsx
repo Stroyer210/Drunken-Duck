@@ -25,7 +25,7 @@ const Food = () => {
                 <div>
                     <h1 className=" ml-20 text-3xl text-white my-5 font-extrabold text-shadow">Appetizers & Salads</h1>
                     <hr className="mx-10 "/>
-                    <h2 className="text-center text-2xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Appetizers</h2>
+                    <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Appetizers</h2>
                     <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Bada Bing Shrimp</p>
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">½ lb hand breaded, deep-fried shrimp served with signature sauce.</p>
                     <img src={friedShrimp} alt="fried-shrimp" className="w-64 rounded-3xl m-auto"/>
@@ -36,13 +36,13 @@ const Food = () => {
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Hand pattied and grilled golden brown served with homemade remoulade sauce.</p>
                     <img src={crab} alt="crab" className="w-64 rounded-3xl m-auto"/>
                     <hr className="mx-60 mt-5"/>
-                    <h2 className="text-center text-2xl text-white mt-5 mb-5 font-extrabold text-shadow">Appetizers</h2>
+                    <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow">Appetizers</h2>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cheese Curds</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Onion Rings</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chicken Strips</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Bavarian Pretzel</p>
                     <hr className="mx-10 mt-10"/>
-                    <h2 className="text-center text-2xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Salads</h2>
+                    <h2 className="text-center text-3xl text-white mt-10 mb-5 font-extrabold text-shadow">Signature Salads</h2>
                     <p className="text-center text-xl text-white mb-2 font-extrabold text-shadow">Chicken Cranberry Salad</p>
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Grilled Chicken on a bed of mixed greens, with dried cranberries, scallions, Parmesan cheese, candied almonds & Balsamic vinaigrette .</p>
                     <img src={chicken} alt="chicken" className="w-64 rounded-3xl m-auto "/>
@@ -50,7 +50,7 @@ const Food = () => {
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Mixed greens topped with blackened salmon*, red onions, tomatoes, cucumbers, fresh mushrooms &  croutons.</p>
                     <img src={salmon} alt="salmon" className="w-64 rounded-3xl m-auto"/>
                     <hr className="mx-60 mt-5"/>
-                    <h2 className="text-center text-2xl text-white mt-5 mb-5 font-extrabold text-shadow">Salads</h2>
+                    <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow">Salads</h2>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chicken Ceasar Salad</p>
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Grilled chiken, romaine lettuce tossed with parmesan cheese, ceasar dressing &  croutons.</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cobb Salad</p>
@@ -58,7 +58,7 @@ const Food = () => {
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chef Salad</p>
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Iceberg lettuce, topped with deli ham, turkey, red onions, tomato, green peppers, cheese & egg.</p>
                     <hr className="mx-10 mt-10"/>
-                    <h2 className="text-center text-2xl text-white mt-5 mb-2 font-extrabold text-shadow">Sandwich Favorites</h2>
+                    <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Sandwich Favorites</h2>
                     <p className="text-center text-base text-gray-200 mb-6 font-extrabold ">Served with Fries – Sub Cheese Curds or Waffle Fries for $2.50</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Clubhouse Sandwich</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Bacon, Lettuce & Tomato</p>
@@ -67,7 +67,7 @@ const Food = () => {
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Irish Ruben</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Grilled Salmon Sandwich</p>
                     <hr className="mx-10 mt-10"/>
-                    <h2 className="text-center text-2xl text-white mt-5 mb-2 font-extrabold text-shadow">100% Certified Angus Beef Burgers</h2>
+                    <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">100% Certified Angus Beef Burgers</h2>
                     <p className="text-center text-base text-gray-200 mb-6 font-extrabold ">Served with Fries – Sub Cheese Curds or Waffle Fries for $2.50</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Drunken Duck Burger*</p>
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">2 patties topped with bacon, ham, shredded chicken, swiss & cheddar cheese.</p>
@@ -85,7 +85,7 @@ const Food = () => {
                     <p className="text-center text-base text-gray-300 mb-5 font-extrabold ">Topped with BBQ sauce, cheddar cheese, strips of  bacon & a golden brown onion ring.</p>
                     <img src={giddyUp} alt="giddyUp burger" className="w-64 rounded-3xl m-auto "/>
                     <hr className="mx-10 mt-10"/>
-                    <h2 className="text-center text-2xl text-white mt-5 mb-2 font-extrabold text-shadow">Side Choices</h2>
+                    <h2 className="text-center text-3xl text-white mt-5 mb-2 font-extrabold text-shadow">Side Choices</h2>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Fries</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Tater Tots</p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Applesauce</p>
@@ -96,7 +96,7 @@ const Food = () => {
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Cheese Curds <span className="text-sm">($2.50 extra)</span></p>
                     <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Mac And Cheese <span className="text-sm">($2.50 extra)</span></p>
                     <hr className="mx-10 mt-10"/>
-                    <p className="text-center text-sm text-gray-200 mb-6 font-extrabold ">*Whether dining out or preparing food at home, consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness.</p>
+                    <p className="text-center text-sm text-gray-200 my-6 font-extrabold ">*Whether dining out or preparing food at home, consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness.</p>
                 </div>
             </div>
             <div>
