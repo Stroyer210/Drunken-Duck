@@ -13,8 +13,8 @@ const Hero = () => {
     return (
         <div className="py-20 h-screen overflow-y-auto">
             <div className="text-center mb-10">
-                <h1 className="text-4xl lg:text-7xl text-white font-extrabold md:ml-20 text-shadow biorhyme"><img src={logo2} alt="mylogo" className="w-40 md:inline md:mr-10 pb-10 mx-auto"/>The Drunken Duck</h1>
-                <p className="text-white mx-auto w-3/6 mt-6 text-2xl text-shadow">Explore our menus, read reviews, and find our location. <span className="font-bold"> We can't wait to serve you!</span></p>
+                <h1 className="text-4xl sm:text-6xl lg:text-7xl text-white font-extrabold lg:ml-20 text-shadow biorhyme"><img src={logo2} alt="mylogo" className="w-40 lg:inline lg:mr-10 pb-10 mx-auto"/>The Drunken Duck</h1>
+                <p className="text-white mx-auto w-3/6 mt-6 text-lg sm:text-2xl text-shadow">Explore our menus, read reviews, and find our location. <span className="font-bold"> We can't wait to serve you!</span></p>
             </div>
             <div className="grid grid-cols-1 lg:flex lg:justify-center text-shadow ">
                 <div className="mx-auto lg:mx-10">
