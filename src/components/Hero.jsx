@@ -13,13 +13,13 @@ const Hero = () => {
     return (
         <div className="py-20 h-screen overflow-y-auto">
             <div className="text-center mb-10">
-                <h1 className="text-4xl lg:text-7xl text-white font-extrabold ml-20 text-shadow biorhyme"><img src={logo2} alt="mylogo" className="w-40 inline mr-10 pb-10"/>The Drunken Duck</h1>
+                <h1 className="text-4xl lg:text-7xl text-white font-extrabold md:ml-20 text-shadow biorhyme"><img src={logo2} alt="mylogo" className="w-40 md:inline md:mr-10 pb-10 mx-auto"/>The Drunken Duck</h1>
                 <p className="text-white mx-auto w-3/6 mt-6 text-2xl text-shadow">Explore our menus, read reviews, and find our location. <span className="font-bold"> We can't wait to serve you!</span></p>
             </div>
-            <div className="md:grid md:grid-cols-1 lg:flex lg:justify-center text-shadow ">
+            <div className="grid grid-cols-1 lg:flex lg:justify-center text-shadow ">
                 <div className="mx-auto lg:mx-10">
                     <Link to="/Food">
-                    <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
+                    <div className="backdrop-filter p-4 w-80 md:w-96 lg:w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                         <h1 className="text-center text-4xl text-white font-extrabold h-auto">Food Menu</h1>
                         <p><IoFastFoodOutline className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
@@ -28,7 +28,7 @@ const Hero = () => {
 
                 <div className="mx-auto my-10 lg:my-0 lg:mx-10">
                     <Link to="/Drink">
-                    <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
+                    <div className="backdrop-filter p-4 w-80 md:w-96 lg:w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                     <h1 className="text-center text-4xl text-white font-extrabold h-auto">Drink Menu</h1>
                     <p><LiaCocktailSolid className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
@@ -37,7 +37,7 @@ const Hero = () => {
 
                 <div className="mx-auto lg:mx-10">
                     <Link to="/Touch">
-                    <div className="backdrop-filter p-4 w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
+                    <div className="backdrop-filter p-4 w-80 md:w-96 lg:w-72 py-32 border-solid border-4 border-gray-700 rounded-2xl cursor-pointer" >
                     <h1 className="text-center text-4xl text-white font-extrabold h-auto">Get in Touch</h1>
                     <p><FaMapLocationDot className="text-4xl text-white mx-auto my-3 font-bold"/></p>
                     </div>
