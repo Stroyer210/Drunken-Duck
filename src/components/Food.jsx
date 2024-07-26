@@ -27,11 +27,11 @@ const Food = () => {
             <div>
                 <Navbar />
             </div>
-            <div className="backdrop-filter-nav 2xl:mx-96 mt-10 pb-10">
+            <div className="backdrop-filter-nav 2xl:mx-96 mt-10 pb-10 mx-5">
                 <h1 className="text-center text-5xl text-white my-10 font-extrabold text-shadow tracking-widest">FOOD MENU</h1>
                 <hr className="mx-10 mb-5" />
                 <div>
-                    <div className="grid grid-cols-3 gap-2 text-center mx-20">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 text-center md:mx-20">
                         <a href="#signatureApps"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter ">Signature Appetizers</button></a>
                         <a href="#apps"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Appetizers</button></a>
                         <a href="#signatureSalads"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Signature Salads</button></a>
@@ -42,7 +42,7 @@ const Food = () => {
                         <a href="#steaks"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Steaks & more</button></a>
                         <a href="#sides"><button className="w-56 h-20 mx-auto text-2xl text-white my-5 font-extrabold text-shadow border rounded-xl p-2 backdrop-filter">Side Choices</button></a>
                     </div>
-                    <div id="signatureApps">
+                    <div id="signatureApps" className="mx-5">
                         <hr className="mx-10 mt-5" />
                         <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Signature Appetizers</h2>
                         <hr className="mx-10 mb-5" />
@@ -56,7 +56,7 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Hand pattied and grilled golden brown served with homemade remoulade sauce.</p>
                         <img src={crab} alt="crab" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <div id="apps">
+                    <div id="apps" className="mx-5">
                         <hr className="mx-60 mt-5" />
                         <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Appetizers</h2>
                         <hr className="mx-60 mt-5" />
@@ -65,7 +65,7 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chicken Strips</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Bavarian Pretzel</p>
                     </div>
-                    <div id="signatureSalads">
+                    <div id="signatureSalads" className="mx-5">
                         <hr className="mx-10 mt-10" />
                         <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Signature Salads</h2>
                         <hr className="mx-10 mb-5" />
@@ -76,7 +76,7 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Mixed greens topped with blackened salmon*, red onions, tomatoes, cucumbers, fresh mushrooms & croutons.</p>
                         <img src={salmon} alt="salmon" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <div id="salads">
+                    <div id="salads" className="mx-5">
                         <hr className="mx-60 mt-5" />
                         <h2 className="text-center text-3xl text-white mt-5 mb-5 font-extrabold text-shadow tracking-widest">Salads</h2>
                         <hr className="mx-60 mt-5" />
@@ -87,7 +87,7 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Chef Salad</p>
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Iceberg lettuce, topped with deli ham, turkey, red onions, tomato, green peppers, cheese & egg.</p>
                     </div>
-                    <div id="sandwich">
+                    <div id="sandwich" className="mx-5">
                         <hr className="mx-10 mt-10" />
                         <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Sandwich Favorites</h2>
                         <hr className="mx-10 mb-5" />
@@ -99,7 +99,7 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Irish Ruben</p>
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Grilled Salmon Sandwich</p>
                     </div>
-                    <div id="wraps">
+                    <div id="wraps" className="mx-5">
                         <hr className="mx-10 mt-10" />
                         <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Wraps</h2>
                         <hr className="mx-10 mb-5" />
@@ -113,7 +113,7 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Fresh shaved prime rib dressed in a creamy steak sauce with crispy fried onions, lettuce, tomato & cheddar cheese.</p>
                         <img src={steakWrap} alt="steak wrap" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <div id="burgers">
+                    <div id="burgers" className="mx-5">
                         <hr className="mx-10 mt-10" />
                         <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">100% Certified Angus Beef Burgers</h2>
                         <hr className="mx-10 mb-5" />
@@ -134,7 +134,7 @@ const Food = () => {
                         <p className="text-center text-base text-gray-300 mb-5 font-extrabold">Topped with BBQ sauce, cheddar cheese, strips of bacon & a golden brown onion ring.</p>
                         <img src={giddyUp} alt="giddyUp burger" className="w-64 rounded-3xl m-auto" />
                     </div>
-                    <div id="steaks">
+                    <div id="steaks" className="mx-5">
                         <hr className="mx-10 mt-10" />
                         <h2 className="text-center text-3xl text-white my-5 font-extrabold text-shadow tracking-widest">Steaks & More</h2>
                         <hr className="mx-10 mb-5" />
@@ -170,7 +170,7 @@ const Food = () => {
                         <p className="text-center text-xl text-white mt-5 mb-2 font-extrabold text-shadow">Mac And Cheese <span className="text-sm">($2.50 extra)</span></p>
                     </div>
                     <hr className="mx-10 mt-10" />
-                    <p className="text-center text-sm text-gray-200 my-6 font-extrabold">*Whether dining out or preparing food at home, consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness.</p>
+                    <p className="text-center text-sm text-gray-200 my-6 font-extrabold mx-10">*Whether dining out or preparing food at home, consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of food borne illness.</p>
                 </div>
             </div>
             <div>
